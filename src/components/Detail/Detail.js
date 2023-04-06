@@ -29,9 +29,14 @@ function Detail() {
     <div >
         {
             item && <>
+            <section>
             <h1>{item.name}</h1>
             <img src={item.image} alt={item.name} />
-
+            <h4>Status: {item.status}</h4>
+            <h4>Species: {item.species}</h4>
+            <h4>Gender: {item.gender}</h4>
+            <h4>Location: {item.location.name}</h4>
+            </section>
             </>
         }
         </div>

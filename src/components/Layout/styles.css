@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+nav > a {
+    padding: 12px 32px;
+    text-decoration: none;
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+nav > a:hover {
+    background-color: white;
+    border: 1px solid aqua;
+    color: aqua;
+    transition: 282ms all ease-in-out;
+}
